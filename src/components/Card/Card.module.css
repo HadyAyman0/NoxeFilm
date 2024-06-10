@@ -1,0 +1,10 @@
+.card:hover
+{
+    transform: scale(0.9);
+    filter: grayscale(0);
+}
+
+.card {
+    filter: grayscale(0.7);
+    transition: transform 350ms ;
+}
