@@ -127,7 +127,7 @@ export default function MovieDetails() {
                         </div>
                     </div>
                 </div>
-                <div className="container min-h-screen">
+                <div className="container ">
                     <div className='mt-3 '>
                         <h3 className='text-white text-5xl m-3'>Trailers And Clips</h3>
                         <swiper-container loop={true} slides-per-view="3" space-Between={10}  {...setting} breakpoints={JSON.stringify({ 1200: { slidesPerView: 3 } })}>
